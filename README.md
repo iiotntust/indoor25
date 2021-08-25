@@ -58,8 +58,10 @@ digraph {
   }
   
 }
+
 ```
 ---
+
 ## Hardware (Beacon, Scanner)
 
 - Mediatek (Linkit 7697)
