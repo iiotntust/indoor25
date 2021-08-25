@@ -37,7 +37,7 @@ digraph {
   subgraph core {
     c [label="Beacon (4.2 or 5.0)"] [shape=box]
   }
-  
+  ```
   c -> a [ltail=session lhead=session]
 
   subgraph cluster1 {
