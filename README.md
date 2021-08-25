@@ -25,7 +25,7 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 
 ```dot
-graph/digraph {
+digraph A{
   compound=true
   rankdir=RL
 
@@ -34,13 +34,13 @@ graph/digraph {
   edge [ fontname="Source Sans Pro", fontsize=12 ];
 
 
-  graph/digraph/cluster/subgraph core {
+  subgraph core {
     c [label="Beacon (4.2 or 5.0)"] [shape=box]
   }
   
   c -> a [ltail=session lhead=session]
 
-  graph/digraph/cluster/subgraph cluster1 {
+  subgraph cluster1 {
      concentrate=true
     a [label="Data\nIPv6, TCP, MQTT (QoS 0)"] [shape=box]
    
@@ -50,7 +50,7 @@ graph/digraph {
     label="Scanner (BLE 4.2)"
   }
 
-  graph/digraph/cluster/subgraph cluster2 {
+  subgraph cluster2 {
     
     b [label="MongoDB"] [shape=box]
     sync [label="port:(1883-21883)" shape=plaintext ]
