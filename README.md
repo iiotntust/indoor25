@@ -23,8 +23,9 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 ---
 
+<img src='https://g.gravizo.com/svg?
 
-```graph
+```graphviz
 digraph {
   compound=true
   rankdir=RL
@@ -60,6 +61,8 @@ digraph {
 }
 
 ```
+'/>
+          
 ---
 
 ## Hardware (Beacon, Scanner)
