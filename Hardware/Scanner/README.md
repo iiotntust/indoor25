@@ -49,8 +49,6 @@ return msg;
 
 ## List of ports
 
-![] (https://www.mouser.tw/images/marketingid/2017/microsites/111662390/LinkIt7697bb.jpg)
-
 Please pay special attention to the connection of each port.
 
 ```diff
