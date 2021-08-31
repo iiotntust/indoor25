@@ -27,7 +27,7 @@ Black wires represent the connection to GND.
 ```
 
 
-The other colors (Blue, Orange, Purple, Yellow, Green), represent the connection to the inputs of the MCU, if needed, this can be modified in the code, assigining more convenient ports to each personal design, or, adding extra sensors to provide extra information to the database.
+The other colors (Blue, Orange, Purple, Yellow, Green), represent the connection to the inputs of the MCU. It is possible to add extra sensors to provide mre information to the database.
 
 ---
 
