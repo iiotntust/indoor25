@@ -8,8 +8,11 @@ The setup works with Linkit 7697
 
 
 1x Linkit 7697
+
 1x LCD 1602 (PCF8574 / PCF8574A)
+
 3x 10k ohm resistor (5% tolerance)
+
 3x Push Button
 
 
