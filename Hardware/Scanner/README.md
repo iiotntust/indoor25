@@ -47,16 +47,28 @@ return msg;
 
 ---
 
-## MongoDB ports (common error)
+## List of ports
 
-Please pay special attention to MongoDB port. It is common for MongoDB when it restart to **change its port**, therefore, what yesterday was the port 49153, today can be 49156.
+Please pay special attention to the connection of each port.
 
-This change of ports will generate a connection error, due to Node-Red is not able to establish contact with the database, because the new port is not into the records.
+```diff
+P17: Pin Minus (--)
+```
+```diff
+P16: Pin Minus (--)
+```
 
-In case of change of ports, please add the new port in the *output node* **mongodb out**.
+```diff
+P15: Pin Minus (--)
+```
 
+```diff
+P9: Pin Minus (--)
+```
 
-![](https://i.imgur.com/28tANuk.png)
+```diff
+P8: Pin Minus (--)
+```
 
 ---
 
