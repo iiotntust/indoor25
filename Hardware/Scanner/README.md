@@ -52,23 +52,29 @@ return msg;
 Please pay special attention to the connection of each port.
 
 ```diff
-P17: Pin Minus (--)
+P17: Decrease Value (--)
 ```
 ```diff
-P16: Pin Minus (--)
+P16: Increase Value (++)
 ```
 
 ```diff
-P15: Pin Minus (--)
+P15: Start Scan
 ```
 
 ```diff
-P9: Pin Minus (--)
+P9: SDA (PCF8574/PCF8574A)
 ```
 
 ```diff
-P8: Pin Minus (--)
+P8: SCL (PCF8574/PCF8574A)
 ```
+
+It is recommended to **not** modify the position of P8 and P9, due to this are the **only I2C ports available for the Linkit 7697**.
+
+For more information, please visit the following link
+
+7697 pinout:https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/
 
 ---
 
