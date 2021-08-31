@@ -1,12 +1,10 @@
 ---
 title: Scanner Setup
-tags: Node-Red, JavaScript, MQTT, MongoDB
+tags: LCD 1602, Push Button, Menu, Start
 
 ---
 
 # Scanner wiring
-
-<!-- Put the link to this slide here so people can follow -->
 
 ---
 
