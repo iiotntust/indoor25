@@ -4,14 +4,19 @@ tags: LCD 1602, Push Button, Menu, Start
 
 ---
 
-# Scanner wiring
+# List of Components
 
 ---
 
-In this section, connectivity between **MQTT** and **MongoDB** is established.
+1x Linkit 7697
+1x LCD 1602 (PCF8574 / PCF8574A)
+3x 10k ohm resistor (5% tolerance)
+3x Push Button
 
-In order to keep a clear record, we will add a **timestamp**, which will be combined with the data package from MongoDB, increasing the size of the JSON string.
 
+---
+
+# Scanner Wiring
 
 ![](https://i.imgur.com/oxuwI5f.png)
 
