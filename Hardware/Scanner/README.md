@@ -72,10 +72,11 @@ It is recommended to **not** modify the position of P8 and P9, due to this are t
 For more information, please visit the following links:
 
 
-**7697 pinout: https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/
+**7697 pinout: https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/**
 
 
-I2C basic concepts**: https://learn.sparkfun.com/tutorials/i2c/all
+**I2C basic concepts: https://learn.sparkfun.com/tutorials/i2c/all**
+
 ---
 
 ### Wrap up
