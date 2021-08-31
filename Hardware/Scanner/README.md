@@ -63,11 +63,11 @@ P15: Start Scan
 ```
 
 ```diff
-P9: SDA (PCF8574/PCF8574A)
+P9: Serial Data Line (SDA) (PCF8574/PCF8574A)
 ```
 
 ```diff
-P8: SCL (PCF8574/PCF8574A)
+P8: Serial Clock Line (SCL) (PCF8574/PCF8574A)
 ```
 
 It is recommended to **not** modify the position of P8 and P9, due to this are the **only I2C ports available for the Linkit 7697**.
