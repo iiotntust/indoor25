@@ -23,10 +23,10 @@ The setup is represented in a breadboard. The use of a Perfboard is recommended 
 ![](https://i.imgur.com/oxuwI5f.png)
 
 ```diff
-- Red wires represent the connection to 5V.
+-Red wires represent the connection to 5V.
 ```
 ```diff
-**Black wires represent the connection to GND.**
+#Black wires represent the connection to GND.
 ```
 
 
