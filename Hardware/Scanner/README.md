@@ -74,7 +74,7 @@ It is recommended to **not** modify the position of P8 and P9, due to this are t
 
 For more information, please visit the following link
 
-7697 pinout:https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/
+7697 pinout: https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/
 
 ---
 
