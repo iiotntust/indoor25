@@ -31,19 +31,6 @@ The other colors (Blue, Orange, Purple, Yellow, Green), represent the connection
 
 ---
 
-### timestamp.js
-
----
-
-```js=
-let currentDate = new Date().toLocaleString([], {timeZone: "Asia/Taipei", hourCycle: 'h23',  seconds: 'long'});
-msg.payload = {object:msg.payload, value:currentDate}; 
-
-return msg; 
-```
-
----
-
 ## List of ports
 
 Please pay special attention to the connection of each port.
