@@ -1,6 +1,3 @@
----
-tags: LCD 1602, Push Button, Menu, Start
----
 # List of Components
 ---
 
