@@ -1,10 +1,10 @@
 ---
-title: Database wiring
+title: Scanner Setup
 tags: Node-Red, JavaScript, MQTT, MongoDB
 
 ---
 
-# Database wiring
+# Scanner wiring
 
 <!-- Put the link to this slide here so people can follow -->
 
@@ -15,47 +15,7 @@ In this section, connectivity between **MQTT** and **MongoDB** is established.
 In order to keep a clear record, we will add a **timestamp**, which will be combined with the data package from MongoDB, increasing the size of the JSON string.
 
 
----
-
-### Usage flow
-
----
-
-
-```graphviz
-digraph {
-  compound=true
-  rankdir=RL
-
-  graph [ fontname="Source Sans Pro", fontsize=20 ];
-  node [ fontname="Source Sans Pro", fontsize=18];
-  edge [ fontname="Source Sans Pro", fontsize=12 ];
-
-
-  subgraph core {
-    c [label="JavaScript \nfile"] [shape=box]
-  }
-  
-  c -> sync [ltail=session lhead=session]
-
-  subgraph cluster1 {
-     concentrate=true
-    a [label="Data mining\nMAC, RSSI, ..."] [shape=box]
-    b [label="MongoDB"] [shape=box]
-    sync [label="timestamp" shape=plaintext ]
-    b -> sync  [dir="both"]
-    sync -> a [dir="both"]
-    label="wiring"
-  }
-}
-```
----
-
-### Node-Red wiring
-
----
-
-![](https://i.imgur.com/5vKZW3O.png)
+![](https://i.imgur.com/oxuwI5f.png)
 
 ---
 
