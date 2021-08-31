@@ -69,14 +69,13 @@ P8: Serial Clock Line (SCL) (PCF8574/PCF8574A)
 
 It is recommended to **not** modify the position of P8 and P9, due to this are the **only I2C ports available for the Linkit 7697**.
 
-For more information, please visit the following link
+For more information, please visit the following links:
 
-```diff
-7697 pinout: https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/
-```
-```diff
-I2C basic concepts: https://learn.sparkfun.com/tutorials/i2c/all
-```
+
+**7697 pinout: https://www.mouser.tw/new/seeed-studio/seeed-studio-linkit-board/**
+
+
+**I2C basic concepts**: https://learn.sparkfun.com/tutorials/i2c/all
 ---
 
 ### Wrap up
