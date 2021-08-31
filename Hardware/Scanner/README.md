@@ -6,7 +6,7 @@ tags: LCD 1602, Push Button, Menu, Start
 
 # List of Components
 
----
+
 
 1x Linkit 7697
 1x LCD 1602 (PCF8574 / PCF8574A)
