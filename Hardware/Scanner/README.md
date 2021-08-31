@@ -1,11 +1,10 @@
 ---
-title: Scanner Setup
 tags: LCD 1602, Push Button, Menu, Start
-
 ---
 # List of Components
 ---
 
+The setup works with Linkit 7697
 
 
 1x Linkit 7697
