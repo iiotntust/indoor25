@@ -50,6 +50,7 @@ img.onload = function(){
 A table is implemented on this website to diaplay all the historical positioning pionts in our database.
 
 The link to the bootstrap table documentation: https://bootstrap-table.com/docs/api/table-options/
+
 The bootstrap version I'm using:
 - **For CSS**
 ```HTML
