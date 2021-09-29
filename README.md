@@ -29,8 +29,24 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 ## How to use this repository
 
+To implement this repository, please follow the instructions:
+
+First: Select your beacon model. Currently, this repository provide code for the following beacons: Linkit 7697, Nano33, HC-42 <br>
+Second: Build your database. Currently, this repository provide documentation for the following database: MongoBD. In addition, the use of Node-Red is highly encouraged. <br>
+Third: Build your rssi scanner. Currently, this repository provide code for the following scanner: Linkit 7697 <br>
+Fourth: Collect the rssi data.
+
+---
+
+## RSSI Collection
+
+After the hardware and database has been established, the system is ready for data collection.
+
+In this phase, the scanner will collect the data from the beacon, as the following image shows.
 
 ![](https://www.mdpi.com/sensors/sensors-21-05181/article_deploy/html/images/sensors-21-05181-g007-550.jpg)
+
+In each distance point, the scanner will collect a certain amount of RSSI signals, generating a comparison table of distance vs rssi.
 
 ---
 
