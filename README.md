@@ -27,6 +27,13 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 ---
 
+## How to use this repository
+
+
+![](https://www.mdpi.com/sensors/sensors-21-05181/article_deploy/html/images/sensors-21-05181-g007-550.jpg)
+
+---
+
 ## Hardware (Beacon, Scanner)
 
 - Mediatek (Linkit 7697)
@@ -36,7 +43,6 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
   - Testing
 
 ---
-
 
 
 ## Algorithm Specs
