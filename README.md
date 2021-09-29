@@ -11,9 +11,9 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 ## Project Main Folders
 
-📂 Hardware /n/
-📂 Database /n/
-📂 Software /n/
+📂 Hardware <br>
+📂 Database <br>
+📂 Software <br>
 
 ---
 
