@@ -13,7 +13,7 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 📂 Hardware <br>
 📂 Database <br>
-📂 Software <br>
+📂 Website <br>
 
 ---
 
@@ -23,42 +23,8 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 ---
 
-```graphviz
-digraph {
-  compound=true
-  rankdir=RL
+![](https://imgur.com/a/Z7ZuWDT)
 
-  graph [ fontname="Source Sans Pro", fontsize=20 ];
-  node [ fontname="Source Sans Pro", fontsize=18];
-  edge [ fontname="Source Sans Pro", fontsize=12 ];
-
-
-  subgraph core {
-    c [label="Beacon (4.2 or 5.0)"] [shape=box]
-  }
-  
-  c -> a [ltail=session lhead=session]
-
-  subgraph cluster1 {
-     concentrate=true
-    a [label="Data\nIPv6, TCP, MQTT (QoS 0)"] [shape=box]
-   
-    sync [label="port:(1883-21883)" shape=plaintext ]
-    b -> sync  [dir="down"]
-    sync -> a [dir="right"]
-    label="Scanner (BLE 4.2)"
-  }
-
-  subgraph cluster2 {
-    
-    b [label="MongoDB"] [shape=box]
-    sync [label="port:(1883-21883)" shape=plaintext ]
-    label="Database"
-  }
-  
-}
-```
-          
 ---
 
 ## Hardware (Beacon, Scanner)
