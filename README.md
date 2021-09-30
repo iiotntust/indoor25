@@ -65,9 +65,8 @@ Arduino (Nano33)<br>
 HC Tech (HC-42)<br>
 Raspberry (Pi4)<br>
 
-Beacons available: Linkit 7697, Nano33, HC-42.<br>
-
-Scanner available: Linkit 7697.<br>
+**Beacons available:** Linkit 7697, Nano33, HC-42.<br>
+**Scanner available:** Linkit 7697.<br>
 
 ---
 
