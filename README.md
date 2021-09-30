@@ -31,10 +31,10 @@ RSSI-based IPS should contain transmitters and receivers, known as beacon and sc
 
 To implement this repository, please follow the instructions:
 
-First: Select your beacon model. Currently, this repository provide code for the following beacons: Linkit 7697, Nano33, HC-42 <br>
-Second: Build your database. Currently, this repository provide documentation for the following database: MongoBD. In addition, the use of Node-Red is highly encouraged. <br>
-Third: Build your rssi scanner. Currently, this repository provide code for the following scanner: Linkit 7697 <br>
-Fourth: Collect the rssi data.
+1️⃣ Select your beacon model. Currently, this repository provide code for the following beacons: Linkit 7697, Nano33, HC-42 <br>
+2️⃣ Build your database. Currently, this repository provide documentation for the following database: MongoBD. In addition, the use of Node-Red is highly encouraged. <br>
+3️⃣ Build your rssi scanner. Currently, this repository provide code for the following scanner: Linkit 7697 <br>
+4️⃣ Collect the rssi data.
 
 ---
 
