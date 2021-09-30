@@ -39,6 +39,7 @@ To implement this repository, please follow the instructions:
 
 4️⃣ **Collect the rssi data**. <br>
 
+5️⃣ **Create the UX/UI (Website)**.  <br>
 ---
 
 ## RSSI Collection
