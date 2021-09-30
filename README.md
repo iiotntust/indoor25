@@ -46,23 +46,28 @@ To implement this repository, please follow the instructions:
 
 ## RSSI Collection
 
-After the hardware and database has been established, the system is ready for data collection.
+After the hardware and database has been established, the system is ready for data collection.<br>
 
-In this phase, the scanner will collect the data from the beacon, as the following image shows.
+In this phase, the scanner will collect the data from the beacon, as the following image shows.<br>
 
 ![](https://www.mdpi.com/sensors/sensors-21-05181/article_deploy/html/images/sensors-21-05181-g007-550.jpg)
 
-In each distance point, the scanner will collect a certain amount of RSSI signals, generating a comparison table of distance vs rssi.
+In each distance point, the scanner will collect a certain amount of RSSI signals, generating a comparison table of distance vs rssi.<br>
 
 ---
 
 ## Hardware (Beacon, Scanner)
 
-- Mediatek (Linkit 7697)
-- Arduino (Nano33)
-- HC Tech (HC-42)
-- Raspberry (Pi4)
-  - Testing
+The following selection of manufacturers are included in the hardware folder:
+
+Mediatek (Linkit 7697)<br>
+Arduino (Nano33)<br>
+HC Tech (HC-42)<br>
+Raspberry (Pi4)<br>
+
+Beacons available: Linkit 7697, Nano33, HC-42.<br>
+
+Scanner available: Linkit 7697.<br>
 
 ---
 
